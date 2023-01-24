@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+}
+
+
+body {
+  height: 100%;
+  background-color: $gray;
+}
+
+.container {
+  padding: 0 10%;
+}
+
+
+.sprite {
+  display: none;
+}
+
+.page {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+

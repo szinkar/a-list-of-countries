@@ -1,0 +1,1 @@
+export const isModeDark = () => localStorage.getItem('darkmode') === 'true'

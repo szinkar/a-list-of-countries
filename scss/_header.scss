@@ -1,0 +1,38 @@
+.header {
+  background-color: $white;
+  @extend %anim;
+  &__active {
+    background-color: $dark-light;
+  }
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 40px 0;
+  }
+  &__title {
+    font-size: 2em;
+    @extend %anim;
+    @extend %nunito700;
+  }
+  &__switch {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &-icon {
+      width: 1.3em;
+      height: 1.3em;
+      margin-right: 10px;
+      fill: $black;
+      @extend %anim;
+    }
+  }
+  &__text {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    @extend %nunito400;
+    @extend %anim;
+  }
+}
+
+

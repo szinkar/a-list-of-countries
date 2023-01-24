@@ -1,0 +1,12 @@
+.active {
+  color: $white;
+  &__icon {
+    fill: $white;
+  }
+  &__bg {
+    background-color: $dark;
+  }
+  &__item {
+    background-color: $gray1;
+  }
+}
